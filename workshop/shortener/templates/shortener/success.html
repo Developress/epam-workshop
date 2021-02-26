@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yes!</title>
+</head>
+<body>
+{% if urls %}
+Yes! Link <a href="{{urls.initial_urls}}"> {{urls.initial_url}} </a>
+shortened to <a href="{{urls.shortened}}"> {{urls.shortened}} </a>
+Share it with friends!
+{% endif %}
+</body>
+</html>
